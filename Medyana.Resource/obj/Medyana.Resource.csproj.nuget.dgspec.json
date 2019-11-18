@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj": {}
+    "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj": {}
   },
   "projects": {
-    "D:\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj": {
+    "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj",
+        "projectUniqueName": "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj",
         "projectName": "Medyana.Resource",
-        "projectPath": "D:\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj",
+        "projectPath": "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj",
         "packagesPath": "C:\\Users\\ecetir\\.nuget\\packages\\",
-        "outputPath": "D:\\MedyanaProject\\Medyana.Resource\\obj\\",
+        "outputPath": "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Resource\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

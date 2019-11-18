@@ -4896,11 +4896,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MedyanaProject\\Medyana.Service\\Medyana.Service.csproj",
+      "projectUniqueName": "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Service\\Medyana.Service.csproj",
       "projectName": "Medyana.Service",
-      "projectPath": "D:\\MedyanaProject\\Medyana.Service\\Medyana.Service.csproj",
+      "projectPath": "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Service\\Medyana.Service.csproj",
       "packagesPath": "C:\\Users\\ecetir\\.nuget\\packages\\",
-      "outputPath": "D:\\MedyanaProject\\Medyana.Service\\obj\\",
+      "outputPath": "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4919,11 +4919,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\MedyanaProject\\Medyana.Data\\Medyana.Data.csproj": {
-              "projectPath": "D:\\MedyanaProject\\Medyana.Data\\Medyana.Data.csproj"
+            "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Data\\Medyana.Data.csproj": {
+              "projectPath": "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Data\\Medyana.Data.csproj"
             },
-            "D:\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj": {
-              "projectPath": "D:\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj"
+            "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj": {
+              "projectPath": "D:\\MedyanaProjectGit\\MedyanaProject\\Medyana.Resource\\Medyana.Resource.csproj"
             }
           }
         }
