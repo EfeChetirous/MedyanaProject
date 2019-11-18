@@ -1,0 +1,28 @@
+<h1 id="tableLabel">Clinic List</h1>
+
+<p *ngIf="!equipments"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="equipments">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Provide Date</th>
+      <th>Count </th>
+      <th>Unit price</th>
+      <th>Usage Range</th>
+      <th>Clinic Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let equipment of equipments">
+      <td>{{ equipment.id }}</td>
+      <td>{{ equipment.name }}</td>
+      <td>{{ equipment.provideDate }}</td>
+      <td>{{ equipment.countInfo }}</td>
+      <td>{{ equipment.unitPrice }}</td>
+      <td>{{ equipment.usageRate }}</td>
+      <td>{{ equipment.clinicName }}</td>
+    </tr>
+  </tbody>
+</table>

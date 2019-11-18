@@ -1,0 +1,15 @@
+D:\MedyanaProject\Medyana.Resource\bin\Debug\netcoreapp3.0\Medyana.Resource.deps.json
+D:\MedyanaProject\Medyana.Resource\bin\Debug\netcoreapp3.0\Medyana.Resource.dll
+D:\MedyanaProject\Medyana.Resource\bin\Debug\netcoreapp3.0\Medyana.Resource.pdb
+D:\MedyanaProject\Medyana.Resource\bin\Debug\netcoreapp3.0\en\Medyana.Resource.resources.dll
+D:\MedyanaProject\Medyana.Resource\bin\Debug\netcoreapp3.0\tr\Medyana.Resource.resources.dll
+D:\MedyanaProject\Medyana.Resource\obj\Debug\netcoreapp3.0\Medyana.Resource.csprojAssemblyReference.cache
+D:\MedyanaProject\Medyana.Resource\obj\Debug\netcoreapp3.0\Medyana.Resource.Resources.SharedResource.en.resources
+D:\MedyanaProject\Medyana.Resource\obj\Debug\netcoreapp3.0\Medyana.Resource.Resources.SharedResource.tr.resources
+D:\MedyanaProject\Medyana.Resource\obj\Debug\netcoreapp3.0\Medyana.Resource.csproj.GenerateResource.cache
+D:\MedyanaProject\Medyana.Resource\obj\Debug\netcoreapp3.0\Medyana.Resource.AssemblyInfoInputs.cache
+D:\MedyanaProject\Medyana.Resource\obj\Debug\netcoreapp3.0\Medyana.Resource.AssemblyInfo.cs
+D:\MedyanaProject\Medyana.Resource\obj\Debug\netcoreapp3.0\en\Medyana.Resource.resources.dll
+D:\MedyanaProject\Medyana.Resource\obj\Debug\netcoreapp3.0\tr\Medyana.Resource.resources.dll
+D:\MedyanaProject\Medyana.Resource\obj\Debug\netcoreapp3.0\Medyana.Resource.dll
+D:\MedyanaProject\Medyana.Resource\obj\Debug\netcoreapp3.0\Medyana.Resource.pdb
