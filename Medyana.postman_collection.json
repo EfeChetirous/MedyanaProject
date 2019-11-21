@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "44dcc058-c4fe-4f86-8a90-f5735d9ffc79",
+		"name": "Medyana",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllClinics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50276/api/Clinic/GetAllClinics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50276",
+					"path": [
+						"api",
+						"Clinic",
+						"GetAllClinics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddClinicAsync",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"new clinic-132\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50276/api/Clinic/AddClinicAsync",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50276",
+					"path": [
+						"api",
+						"Clinic",
+						"AddClinicAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllEquipments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50276/api/Equipment/GetAllEquipments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50276",
+					"path": [
+						"api",
+						"Equipment",
+						"GetAllEquipments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateClinicAsync",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Id\":6,\n\t\"name\": \"new clinic-134\",\n\t\"ProvideDate\": \"2019-11-10\",\n\t\"CountInfo\": 4,\n\t\"UnitPrice\" : 16.2,\n\t\"UsageRate\" : 64,\n\t\"ClinicId\" : 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50276/api/Equipment/UpdateEquipmentAsync",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50276",
+					"path": [
+						"api",
+						"Equipment",
+						"UpdateEquipmentAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SoftDeleteEquipmentAsync",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50276/api/Equipment/SoftDeleteEquipmentAsync/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50276",
+					"path": [
+						"api",
+						"Equipment",
+						"SoftDeleteEquipmentAsync",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PermanentDeleteEquipmentAsync",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50276/api/Equipment/PermanentDeleteEquipmentAsync/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50276",
+					"path": [
+						"api",
+						"Equipment",
+						"PermanentDeleteEquipmentAsync",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddEquipmentAsync",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"first equipment name\",\n\t\"ProvideDate\": \"2019-11-16\",\n\t\"CountInfo\": 2,\n\t\"UnitPrice\" : 12.2,\n\t\"UsageRate\" : 40,\n\t\"ClinicId\" : 3\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50276/api/Equipment/AddEquipmentAsync",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50276",
+					"path": [
+						"api",
+						"Equipment",
+						"AddEquipmentAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PermanentDeleteClinicAsync",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:50276/api/Clinic/PermanentDeleteClinicAsync/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50276",
+					"path": [
+						"api",
+						"Clinic",
+						"PermanentDeleteClinicAsync",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SoftDeleteClinicAsync",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50276/api/Clinic/SoftDeleteClinicAsync/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50276",
+					"path": [
+						"api",
+						"Clinic",
+						"SoftDeleteClinicAsync",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateClinicAsync",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"new clinic-135\",\r\n    \"id\": 6\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:50276/api/Clinic/UpdateClinicAsync",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50276",
+					"path": [
+						"api",
+						"Clinic",
+						"UpdateClinicAsync"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
